@@ -7,16 +7,16 @@
 
 @font-face {
   font-family: "Pixelated MS Sans Serif";
-  src: url(/fonts/ms_sans_serif.woff) format("woff");
-  src: url(/fonts/ms_sans_serif.woff2) format("woff2");
+  src: url(fonts/ms_sans_serif.woff) format("woff");
+  src: url(fonts/ms_sans_serif.woff2) format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Pixelated MS Sans Serif";
-  src: url(/fonts/ms_sans_serif_bold.woff) format("woff");
-  src: url(/fonts/ms_sans_serif_bold.woff2) format("woff2");
+  src: url(fonts/ms_sans_serif_bold.woff) format("woff");
+  src: url(fonts/ms_sans_serif_bold.woff2) format("woff2");
   font-weight: 700;
   font-style: normal;
 }
@@ -37,7 +37,7 @@
 }
 
 body {
-  cursor: url("/cursor.png"), auto;
+  cursor: url("cursor.png"), auto;
   color: var(--lilith-window-text-color);
   /*font-family: "MS ui gothic";*/
   image-rendering: pixelated;
@@ -54,7 +54,7 @@ body {
 }
 
 .window::after {
-  content: url('/index/window_bottom.png');
+  content: url('index/window_bottom.png');
   float:left;
 }
 
@@ -103,7 +103,7 @@ body {
 }
 
 .title::before {
-  content: url('/index/window_icon_neutral.png');
+  content: url('index/window_icon_neutral.png');
   float:left;
   padding-right:2px;
   
@@ -114,7 +114,7 @@ body {
 }
 
 .title::after {
-  content: url('/index/window_buttons2.png');
+  content: url('index/window_buttons2.png');
   float:right;
   
   /*display:flex;
@@ -160,7 +160,7 @@ body {
 }
 
 .button:hover {
-  cursor: url("/click.png"), auto;
+  cursor: url("click.png"), auto;
   /*background: var(--lilith-window-text-back);*/
   border-image: url(button_hovered.png) 4 fill repeat;
 }
