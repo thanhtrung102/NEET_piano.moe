@@ -1,0 +1,51 @@
+<!DOCTYPE html><html lang="en" style="height:100%;"><head>
+    <meta charset="utf-8">
+    <title>NSO Webcam</title>
+    <link rel="stylesheet" href="../../common.css">
+    <!--<link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>-->
+    <style>
+      .shake {
+        /* Start the shake animation and make the animation last for 0.5 seconds */
+        /*animation: shake 0.35s;*/
+        animation: shake 0.333s;
+      
+        /* When the animation is finished, start again */
+        animation-iteration-count: infinite;
+      }
+
+      @keyframes shake {
+        0% { transform: translate(0px, 0px); }
+        25% { transform: translate(0px, 2px); }
+        50% { transform: translate(0px, 0px); }
+        75% { transform: translate(0px, -2px); }
+        100% { transform: translate(0px, 0px); }
+      }
+      
+      /*@keyframes shake {
+        0% { transform: translate(1px, 1px) rotate(0deg); }
+        10% { transform: translate(-1px, -2px) rotate(-1deg); }
+        20% { transform: translate(-3px, 0px) rotate(1deg); }
+        30% { transform: translate(3px, 2px) rotate(0deg); }
+        40% { transform: translate(1px, -1px) rotate(1deg); }
+        50% { transform: translate(-1px, 2px) rotate(-1deg); }
+        60% { transform: translate(-3px, 1px) rotate(0deg); }
+        70% { transform: translate(3px, 1px) rotate(-1deg); }
+        80% { transform: translate(-1px, -1px) rotate(1deg); }
+        90% { transform: translate(1px, 2px) rotate(0deg); }
+        100% { transform: translate(1px, -2px) rotate(-1deg); }
+      }*/
+    </style>
+  </head>
+  <body style="margin:0;overflow:clip;image-rendering: pixelated;">
+    <!--<img id="webcam" src="https://www.gematsu.com/wp-content/uploads/2021/02/Needy-Girl-Overdose_2021_02-02-21_002.gif" style="max-width: 100%;height: auto;display: block;width: 100%;">-->
+    <!--<img id="bg" src="/nso/sprites/bg/webcam_default.png" style="position:absolute; max-width: 100%;height: auto;display: block;width: 100%;user-select: none;pointer-events: none;">
+    <img id="ame" src="/nso/sprites/ame/lslald_idle.gif" style="position:absolute; max-width: 100%;height: auto;display: block;width: 100%;user-select: none;pointer-events: none;">-->
+    <img id="bg" src="../../sprites/bg/webcam_default.png" style="position:absolute; width:100vw; height: 100vh;object-fit: cover;user-select: none;pointer-events: none;">
+    <img id="ame" src="../../sprites/ame/lslald_idle.gif" style="position:absolute; width:100vw; height: 100vh;object-fit: cover;user-select: none;pointer-events: none;">
+    <img id="hearts" src="../../sprites/ame/hearts.gif" style="position:absolute; width:100vw; height: 100vh;object-fit: cover;user-select: none;pointer-events: none; display:none;">
+    <div id="headpat-hitbox" style="width: 30%;height: 40%;position: absolute;left: 35%;top: 10%;cursor: var(--lilith-cursor-grab);/*background:red;*/"></div>
+    <div id="bed-dark" style="background: radial-gradient(60% 120% at 100% 80%,rgb(200,150,100),black);position: absolute;width: 100vw;height: 100vh;mix-blend-mode: multiply;background-image: radial-gradient(circle 100% at 100% 80%, rgb(255,200,200), black);opacity: 0;pointer-events: none;"></div>
+  
+  <script src="../webcam.js"></script>
+</body></html>
