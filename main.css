@@ -130,7 +130,7 @@ section {
   display: block;
   margin: 0 auto;
   text-align: center;
-  cursor: url("/click.png"), auto;
+  cursor: url("click.png"), auto;
   font-size: 16px;
   /*font-weight: bold;*/
   text-decoration:none;
@@ -183,12 +183,12 @@ section {
 }
 
 #music-prev, #music-toggle, #music-next, a {
-  cursor: url("/click.png"), auto;
+  cursor: url("click.png"), auto;
 }
 
 body {
   background: linear-gradient(rgb(251,220,220,.15),rgb(251,220,220,.15)),url(index/wallpaper.png);
-  cursor: url("/cursor.png"), auto;
+  cursor: url("cursor.png"), auto;
 }
 
 footer {
