@@ -1,82 +1,82 @@
 .ico-home.title::before {
-  content: url('/index/app_icons/home.png');
+  content: url('index/app_icons/home.png');
   
   float:left;
   padding-right:2px;
 }
 
 .ico-music.title::before {
-  content: url('/index/app_icons/music.png');
+  content: url('index/app_icons/music.png');
   
   float:left;
   padding-right:2px;
 }
 
 .ico-warning.title::before {
-  content: url('/index/app_icons/warning.png');
+  content: url('index/app_icons/warning.png');
   
   float:left;
   padding-right:2px;
 }
 
 .ico-webcam.title::before {
-  content: url('/index/app_icons/webcam.png');
+  content: url('index/app_icons/webcam.png');
   
   float:left;
   padding-right:2px;
 }
 
 .ico-bio.title::before {
-  content: url('/index/app_icons/bio.png');
+  content: url('index/app_icons/bio.png');
   
   float:left;
   padding-right:2px;
 }
 
 .ico-link.title::before {
-  content: url('/index/app_icons/links.png');
+  content: url('index/app_icons/links.png');
   
   float:left;
   padding-right:2px;
 }
 
 .ico-smile.title::before {
-  content: url('/index/app_icons/smile.png');
+  content: url('index/app_icons/smile.png');
   
   float:left;
   padding-right:2px;
 }
 
 .ico-blog.title::before {
-  content: url('/index/app_icons/blog.png');
+  content: url('index/app_icons/blog.png');
   
   float:left;
   padding-right:2px;
 }
 
 .ico-chat.title::before {
-  content: url('/index/app_icons/chat.png');
+  content: url('index/app_icons/chat.png');
   
   float:left;
   padding-right:2px;
 }
 
 .ico-love.title::before {
-  content: url('/index/app_icons/heart.png');
+  content: url('index/app_icons/heart.png');
   
   float:left;
   padding-right:2px;
 }
 
 .ico-download.title::before {
-  content: url('/index/app_icons/downloads.png');
+  content: url('index/app_icons/downloads.png');
   
   float:left;
   padding-right:2px;
 }
 
 .ico-webring.title::before {
-  content: url('/index/app_icons/webring.png');
+  content: url('index/app_icons/webring.png');
   
   float:left;
   padding-right:2px;
