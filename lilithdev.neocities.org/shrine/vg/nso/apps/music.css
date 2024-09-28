@@ -1,0 +1,153 @@
+@import url("../common.css");
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #F9EFF9;
+    image-rendering: pixelated;
+}
+
+body {
+    margin:0;
+    overflow:clip;
+    display:flex;
+    align-items: center;
+    gap: 8px;
+    padding:10px;
+    height:calc(100% - 10px * 2);
+}
+
+#player {
+    display:none;
+}
+
+#music-right {
+    display:flex;
+    flex-direction:column;
+    gap: 2px;
+    user-select: none; /* prevent grabbing everything */
+}
+
+#song-title {
+    color: var(--lilith-window-text-color);
+    /*font-family: var(--lilith-normal-text);*/
+    font-family: var(--lilith-alt2-text);
+    /*letter-spacing: -1px;*/
+    font-size: 20px;
+    min-width: 0;
+    display: flex;
+    justify-content: space-between;
+}
+  
+#song-title > div {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: " ♪";
+}
+
+#song-uploader {
+    color: var(--lilith-window-text-color);
+    font-family: var(--lilith-tiny-text);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: " ♫";
+    /*font-size: 24px;*/
+}
+
+#playback-bar {
+    display: flex;
+    margin: 4px 0;
+    width: 100%; /* Full-width */
+    height: 4px; /* Specified height */
+    background: #F0D1F1;
+}
+
+#playback-fill {
+    /*width: 50%; /* Full-width */
+    height: 4px; /* Specified height */
+    background: #4D23CF;
+}
+
+#details {
+    display:flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#volume-bar {
+    display: flex;
+    margin: 4px 0;
+    width: 100%; /* Full-width */
+    height: 4px; /* Specified height */
+    background: #F0D1F1;
+}
+
+#volume-fill {
+    /*width: 50%; /* Full-width */
+    height: 4px; /* Specified height */
+    background: #4D23CF;
+}
+
+.knob {
+    width: 8px;
+    height: 8px;
+    background: #4D23CF;
+    position: relative;
+    top: -2px;
+}
+
+#playtime {
+    color: var(--lilith-window-text-color);
+    font-family: var(--lilith-tiny-text);
+    white-space: nowrap;
+}
+
+#custom-playlist {
+    padding: 8px;
+    position: absolute;
+    min-width: 0;
+    width: 100vw;
+    height: 100vh;
+    background: var(--lilith-window-text-back);
+    left:0;
+    top:0;
+    display:flex;
+    gap: 8px;
+    align-items: center;
+    box-sizing:border-box;
+}
+
+#custom-input {
+    padding: 10px;
+    background: var(--lilith-task-color);
+    border: 2px solid;
+    border-color: var(--lilith-border-color) whitesmoke whitesmoke var(--lilith-border-color);
+    outline:0;
+    color: var(--lilith-window-text-color);
+    font-family: var(--lilith-alt2-text);
+    font-size: 20px;
+    flex-grow: 1;
+    cursor: var(--lilith-cursor-text);
+}
+
+#custom-create {
+    padding: 10px 20px;
+    background: var(--lilith-task-color);
+    border-color: whitesmoke var(--lilith-border-color) var(--lilith-border-color) whitesmoke;
+    color: var(--lilith-window-text-color);
+    font-family: var(--lilith-alt2-text);
+    font-size: 20px;
+    cursor: pointer;
+    height: 46px;
+}
+
+#music-prev, #music-toggle, #music-next, #music-logo, #select-playlist, #playback-bar, #volume-bar, #volume-icon {
+    cursor: var(--lilith-cursor-click);
+}

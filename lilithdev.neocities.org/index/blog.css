@@ -1,0 +1,83 @@
+#blog {
+  background: url(https://lilithdev.neocities.org/index/bg_tile.png), #D4E7F3;
+  background-repeat: repeat-x;
+  padding: 0px;
+  overflow-y: scroll;
+  max-height: 640px;
+  
+  /*Firefox scrollbar*/
+  scrollbar-color: var(--lilith-scrollbar-inner-color) var(--lilith-scrollbar-outer-color);
+  scrollbar-width: thin;
+}
+
+/*Chrome scrollbar*/
+/* width */
+#blog::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+#blog::-webkit-scrollbar-track {
+  background: #C5EAFC; 
+}
+ 
+/* Handle */
+#blog::-webkit-scrollbar-thumb {
+  background: #DB8ED6; 
+}
+
+/* Handle on hover */
+#blog::-webkit-scrollbar-thumb:hover {
+  background: #B471B0; 
+}
+
+.blog-frame {
+  padding: 12px;
+  margin: 20px;
+  border: 6px solid transparent;
+  border-image: url(blog_frame.png) 6 fill repeat;
+}
+
+.blog-frame hr {
+  border-top: 1px solid #C8C8C8;
+}
+
+article {
+  display: flex;
+  gap: 8px;
+}
+
+article .article-content {
+  flex: 1;
+  color: var(--lilith-window-text-color);
+  text-decoration: none;
+  word-wrap: anywhere;
+}
+
+article .article-username {
+  color: var(--lilith-username-color);
+  font-weight: bold;
+}
+
+article .article-address {
+  font-weight: normal;
+}
+
+article .article-title {
+  font-weight: bold;
+}
+
+.article-date {
+  font-size: 12px;
+  color: #C8C8C8;
+  padding: 4px;
+}
+
+article .blog-img {
+  border-radius: 8px;
+}
+
+article img {
+  max-width:100%;
+  max-height:100%;
+}
