@@ -25,34 +25,13 @@
     </pubDate>
   </item>-->
   <item>
-    <title>First shrine page: NSO&lt;emj&gt;ðŸŽŠ&lt;/emj&gt;</title>
-    <description>
-      I have finished my very first shrine page! &lt;emj&gt;ðŸ˜Š&lt;/emj&gt; &lt;emj&gt;âœ¨&lt;/emj&gt; &lt;br&gt;
-      I know considering my main page it might be a bit weird to do on the same theme, but I think it's fitting for an almost 1 year anniversary!&lt;br&gt;
-      I look forward to making more pages in the future! (hopefully less complicated &lt;emj&gt;ðŸ˜­&lt;/emj&gt; )
-    </description>
-    <link>https://lilithdev.neocities.org/posts/nsoshrine.html</link>
-    <pubDate>Mon, 18 Mar 2024 21:26:20 +0000</pubDate>
-  </item>
-  <item>
-    <title>New music player!&lt;emj&gt;â™ª&lt;/emj&gt;</title>
-    <description>
-      I have added a new music player to the main page! &lt;emj&gt;ðŸ¥°&lt;/emj&gt; &lt;br&gt;
-      It's linked to another page that is currently a work in progress, but I anticipate I'll reuse this player often!
-    </description>
-    <link>https://lilithdev.neocities.org/posts/newmusic</link>
-    <pubDate>
-      Tue, 27 Feb 2024 05:59:12 +0000
-    </pubDate>
-  </item>
-  <item>
-    <title>Henlo</title>
+    <title>Hi there!</title>
     <description>
       Welcome to my blog!&lt;emj&gt;ðŸ’™&lt;/emj&gt;
     </description>
-    <link>https://lilithdev.neocities.org/posts/first.html</link>
+    <link>instagram.com/neet_piano</link>
     <pubDate>
-      Sat, 11 Mar 2023 20:28:15 +0000
+      Sat, 28 Sep 2024 20:28:15 
     </pubDate>
   </item>
 </channel>
