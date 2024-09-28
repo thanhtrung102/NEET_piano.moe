@@ -1,20 +1,20 @@
 @font-face {
   font-family: "Determination";
-  src: url(https://lilithdev.neocities.org/determination.woff) format("woff");
+  src: url('https://lilithdev.neocities.org/determination.woff') format("woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "pixelmplus12";
-  src: url(https://lilithdev.neocities.org/fonts/pixelmplus12-regular-webfont.woff) format("woff");
+  src: url('https://lilithdev.neocities.org/fonts/pixelmplus12-regular-webfont.woff') format("woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "pixelmplus12";
-  src: url(https://lilithdev.neocities.org/fonts/pixelmplus12-bold-webfont.woff) format("woff");
+  src: url('https://lilithdev.neocities.org/fonts/pixelmplus12-bold-webfont.woff') format("woff");
   font-weight: 700;
   font-style: normal;
 }
@@ -130,7 +130,7 @@ section {
   display: block;
   margin: 0 auto;
   text-align: center;
-  cursor: url("click.png"), auto;
+  cursor: url("https://lilithdev.neocities.org/click.png"), auto;
   font-size: 16px;
   /*font-weight: bold;*/
   text-decoration:none;
@@ -183,12 +183,12 @@ section {
 }
 
 #music-prev, #music-toggle, #music-next, a {
-  cursor: url("click.png"), auto;
+  cursor: url("https://lilithdev.neocities.org/click.png"), auto;
 }
 
 body {
-  background: linear-gradient(rgb(251,220,220,.15),rgb(251,220,220,.15)),url(index/wallpaper.png);
-  cursor: url("cursor.png"), auto;
+  background: linear-gradient(rgb(251,220,220,.15),rgb(251,220,220,.15)),url('https://lilithdev.neocities.org/index/wallpaper.png');
+  cursor: url("https://lilithdev.neocities.org/cursor.png"), auto;
 }
 
 footer {
