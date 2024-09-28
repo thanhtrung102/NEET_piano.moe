@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>Lilith' Adventures</title>
+  <description>Daily blog for when I wanna talk about things</description>
+  <link>https://lilithdev.neocities.org/</link>
+  <lastBuildDate>
+    Sun, 12 Mar 2023 21:00:06 +0000
+  </lastBuildDate>
+  <ttl>20000</ttl>
+  
+  <!--<item>
+    <title>What's the deal with Minecraft RenderLayers anyway?</title>
+    <description>
+      They usually work fine in vanilla but trying to make any custom ones tends to break everything.&lt;br&gt;
+      Not to mention how they react with any graphics/performance mods! Let's look how to tame this beast.&lt;br&gt;
+      &lt;br&gt;
+      &lt;img src="https://lilithdev.neocities.org/posts/2023-03-12_16.59.31.png" class="blog-img"&gt;
+    </description>
+    <link>
+      https://lilithdev.neocities.org/posts/renderlayers.html
+    </link>
+    <pubDate>
+      Sun, 12 Mar 2023 21:00:06 +0000
+    </pubDate>
+  </item>-->
+  <item>
+    <title>First shrine page: NSO&lt;emj&gt;ðŸŽŠ&lt;/emj&gt;</title>
+    <description>
+      I have finished my very first shrine page! &lt;emj&gt;ðŸ˜Š&lt;/emj&gt; &lt;emj&gt;âœ¨&lt;/emj&gt; &lt;br&gt;
+      I know considering my main page it might be a bit weird to do on the same theme, but I think it's fitting for an almost 1 year anniversary!&lt;br&gt;
+      I look forward to making more pages in the future! (hopefully less complicated &lt;emj&gt;ðŸ˜­&lt;/emj&gt; )
+    </description>
+    <link>https://lilithdev.neocities.org/posts/nsoshrine.html</link>
+    <pubDate>Mon, 18 Mar 2024 21:26:20 +0000</pubDate>
+  </item>
+  <item>
+    <title>New music player!&lt;emj&gt;â™ª&lt;/emj&gt;</title>
+    <description>
+      I have added a new music player to the main page! &lt;emj&gt;ðŸ¥°&lt;/emj&gt; &lt;br&gt;
+      It's linked to another page that is currently a work in progress, but I anticipate I'll reuse this player often!
+    </description>
+    <link>https://lilithdev.neocities.org/posts/newmusic</link>
+    <pubDate>
+      Tue, 27 Feb 2024 05:59:12 +0000
+    </pubDate>
+  </item>
+  <item>
+    <title>Henlo</title>
+    <description>
+      Welcome to my blog!&lt;emj&gt;ðŸ’™&lt;/emj&gt;
+    </description>
+    <link>https://lilithdev.neocities.org/posts/first.html</link>
+    <pubDate>
+      Sat, 11 Mar 2023 20:28:15 +0000
+    </pubDate>
+  </item>
+</channel>
+</rss>
