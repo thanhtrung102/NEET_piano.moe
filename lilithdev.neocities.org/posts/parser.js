@@ -1,4 +1,4 @@
-const RSS_URL = `https://lilithdev.neocities.org/posts/feed.txt`;
+const RSS_URL = `posts/feed.txt`;
 
 function adaptHTML(string) {
   return string.replaceAll("&lt;", "<").replaceAll("&gt;", ">");
