@@ -40,16 +40,16 @@ window.addEventListener("resize", (event) => {
 });
 
 const imgUrlPlay = {
-  play: "https://lilithdev.neocities.org/shrine/vg/nso/sprites/music_play.png",
-  pause: "https://lilithdev.neocities.org/shrine/vg/nso/sprites/music_pause.png",
-  loading: "https://lilithdev.neocities.org/shrine/vg/nso/sprites/music_load.gif"
+  play: "shrine/vg/nso/sprites/music_play.png",
+  pause: "shrine/vg/nso/sprites/music_pause.png",
+  loading: "shrine/vg/nso/sprites/music_load.gif"
 };
 
 const imgUrlVolume = {
-  normal: "https://lilithdev.neocities.org/shrine/vg/nso/sprites/music_volume_100.png",
-  low: "https://lilithdev.neocities.org/shrine/vg/nso/sprites/music_volume_50.png",
-  lowest: "https://lilithdev.neocities.org/shrine/vg/nso/sprites/music_volume_20.png",
-  mute: "https://lilithdev.neocities.org/shrine/vg/nso/sprites/music_volume_mute.png"
+  normal: "shrine/vg/nso/sprites/music_volume_100.png",
+  low: "shrine/vg/nso/sprites/music_volume_50.png",
+  lowest: "shrine/vg/nso/sprites/music_volume_20.png",
+  mute: "shrine/vg/nso/sprites/music_volume_mute.png"
 };
 
 function formatTime(seconds) {
