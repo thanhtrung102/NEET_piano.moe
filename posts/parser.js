@@ -23,7 +23,7 @@ fetch(RSS_URL, {cache: "reload"})
           </div>
           <a href="${el.querySelector("link").innerHTML}" class="article-content">
             <div class="article-username">
-              <emj>🎀</emj>LilithDev<emj>🐶</emj> <span class="article-address">@lilithpup</spawn>
+              Neet_piano<span class="article-address">@PRESTO2406</spawn>
             </div>
             <div class="article-title">
               ${adaptHTML(el.querySelector("title").innerHTML)}
