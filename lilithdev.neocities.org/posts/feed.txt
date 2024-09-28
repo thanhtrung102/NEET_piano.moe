@@ -27,7 +27,7 @@
   <item>
     <title>Hi there!</title>
     <description>
-      Welcome to my blog!&lt;emj&gt;ðŸ’™&lt;/emj&gt;
+      Welcome to my blog!&lt;&lt;/emj&gt;
     </description>
     <link>instagram.com/neet_piano</link>
     <pubDate>
